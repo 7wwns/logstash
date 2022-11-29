@@ -1,0 +1,7 @@
+{"index":{"_id":1}}
+{"name":"Neenx","Age":26}
+{"index":{"_id":2}}
+{"name":"Neez","Age":26}
+
+
+//curl localhost:9200/wor/_bulk -H "content-type:application/x-ndjson" --data-binary "@data.ndjson"
